@@ -48,7 +48,7 @@ CSS assets can be imported from a JavaScript or HTML file, and can contain depen
 @import './other.css';
 
 .test {
-  /* Reference an image file */
+  /* Reference an image file. Note that the path must be wrapped in quotes. */
   background: url('./images/background.png');
 }
 ```
